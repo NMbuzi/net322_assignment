@@ -65,6 +65,7 @@ class MainWindow(QMainWindow):
             self.browser.setHtml(f"""<h2>page Not found</h2> <p>No matching local document was found for: <b>{url}</b></p> <p><a href="https://www.google.com/search?q={url}">search on Google</a></p>""")
 
         
+        
 
 app = QApplication(sys.argv)            
 QApplication.setApplicationName("my cool broswer")
