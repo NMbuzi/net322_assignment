@@ -67,6 +67,6 @@ class MainWindow(QMainWindow):
         
 
 app = QApplication(sys.argv)            
-QApplication.setApplicationName("my own broswer")
+QApplication.setApplicationName("my cool broswer")
 window=MainWindow()
 app.exec_()     #this will tell the app to execcute and it wil open a window like brower  
