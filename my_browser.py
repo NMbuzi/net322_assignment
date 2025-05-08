@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
     def __init__(self):   # this is a constructor
         super(MainWindow,self).__init__()
         self.browser=QWebEngineView()
-        self.browser.setUrl(QUrl("http://localhost:8000"))# this will open google
+        self.browser.setUrl(QUrl("http://localhost:8000"))# this will open my local sever home page
         self.setCentralWidget(self.browser)
         self.showMaximized()
 # navigation bar
